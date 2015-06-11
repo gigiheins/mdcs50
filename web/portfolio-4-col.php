@@ -1,6 +1,8 @@
+<?php
+require_once'boopstrap.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -9,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title><?=$website_settings['title'];?> </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -123,13 +125,14 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Four Column Portfolio
+                <h1 class="page-header"> <?=$website_settings['page_title']; ?>
                     <small>Subheading</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Four Column Portfolio</li>
+                    <li class="active"><?=$website_settings['page_title']; ?>
+                    </li>
                 </ol>
             </div>
         </div>
@@ -251,7 +254,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2015</p>
+                    <p>Copyright &copy; Gigi Heins Website 2015</p>
                 </div>
             </div>
         </footer>
