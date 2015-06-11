@@ -136,7 +136,7 @@
         <!-- /.row -->
 
         <!-- Projects Row -->
-        <div class="row">
+
 	        <?php
 	        $portfolio = [
 		        [
@@ -164,7 +164,12 @@
 			        'img_link' => 'http://lorempixel.com/g/750/450',
 		        ],
 	        ];
-
+            for ($row = 0; $row < 3; $row++) {
+            ?>
+            <!-- create Rows -->
+            <div class="row">
+                <!-- create Images -->
+                <?php
 	        foreach ( $portfolio as $portfolio_item ) {
 		        ?>
 		        <div class="<?= $portfolio_item['container_class']; ?>">
@@ -174,12 +179,16 @@
 		        </div>
 	            <?php
 	        }
-
-	        ?>
-        </div>
+                ?>
+            </div>
+            <?php
+            }
+            ?>
         <!-- /.row -->
 
-        <!-- Projects Row -->
+
+
+        <!-- Projects Row in html
         <div class="row">
             <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.html">
@@ -202,32 +211,7 @@
                 </a>
             </div>
         </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-3 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 img-portfolio">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
+         /.row -->
 
         <hr>
 
