@@ -1,5 +1,4 @@
 <?php require_once 'header.php'; ?>
-<?php require_once 'carousel.php'; ?>
 
     <!-- Page Content -->
     <div class="container">
@@ -7,8 +6,9 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
+                <img class="img-responsive" src="http://10.10.10.100/images/markbaby.jpg" alt="">
                 <h1 class="page-header">About
-                    <small>Subheading</small>
+                    <small>a little tale</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
@@ -22,13 +22,13 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="http://10.10.10.100/images/unnamed-2.jpg" alt="">
             </div>
             <div class="col-md-6">
-                <h2>About Modern Business</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+                <h2>About Markus Heins</h2>
+                <p>Markus was born in December 5, 2012. Since early age he showed interest on music, sports, and mathematics. Today, Markus is the best kid on the block and the love of his mommy. He is a happy baby thanks to his mother and grandmother care.</p>
+                <p>He is able to graps concepts like a 4 years old child and it is impressive to everyone he talks to because he shows a very well develop language for his age. At the moment he speaks spanish and he he is learning english at his school.</p>
+                <p>He loves school, sharing, playing, and singing. "Specially singing the ABC song. He loves to travel abroad and he always ready to give a kiss and a hhug to everyone who asks him. He is very social and friendly and respect the little babies. </p>
             </div>
         </div>
         <!-- /.row -->
