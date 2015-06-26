@@ -100,7 +100,7 @@
                                 <a href="sidebar.php">Sidebar Page</a>
                             </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a href="faq.php">FAQ</a>
                             </li>
                             <li>
                                 <a href="404.php">404</a>

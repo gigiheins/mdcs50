@@ -1,8 +1,7 @@
-<?php
-require_once'boopstrap.php';
-?>
+<?php require_once 'bootstrap.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="utf-8">
@@ -11,7 +10,7 @@ require_once'boopstrap.php';
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?=$website_settings['title'];?> </title>
+    <title><?= $website_settings['title']; ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +30,7 @@ require_once'boopstrap.php';
 
 </head>
 
-</body>
+<body>
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -44,7 +43,7 @@ require_once'boopstrap.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><?=$website_settings['home_title'];?></a>
+            <a class="navbar-brand" href="/"><?= $website_settings['home']; ?></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -102,7 +101,7 @@ require_once'boopstrap.php';
                             <a href="sidebar.php">Sidebar Page</a>
                         </li>
                         <li>
-                            <a href="faq.html">FAQ</a>
+                            <a href="faq.php">FAQ</a>
                         </li>
                         <li>
                             <a href="404.php">404</a>
@@ -118,4 +117,3 @@ require_once'boopstrap.php';
     </div>
     <!-- /.container -->
 </nav>
-
